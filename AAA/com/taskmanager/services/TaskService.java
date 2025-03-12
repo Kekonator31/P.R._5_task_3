@@ -16,12 +16,12 @@ public class TaskService {
     }
 
     public  void addTask(String name, String info){
-        tasks.add(new Task(name, info, new Date()));
+        tasks.add(new Task(name, info));
 
     }
 
     public  void addTask(String name){
-        tasks.add(new Task(name, "", new Date()));
+        tasks.add(new Task(name));
     }
 
     public  void printTasks(){
