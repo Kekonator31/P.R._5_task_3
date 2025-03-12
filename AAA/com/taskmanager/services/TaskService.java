@@ -33,6 +33,7 @@ public class TaskService {
                 System.out.println("Information: " + check);
             }
             System.out.println("Deadline: " + s.getDate());
+            System.out.println();
         }
     }
 }
